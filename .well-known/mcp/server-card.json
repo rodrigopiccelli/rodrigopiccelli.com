@@ -1,0 +1,20 @@
+{
+  "serverInfo": {
+    "name": "Rodrigo Piccelli Profile",
+    "version": "1.0.0",
+    "description": "Personal profile and professional presence"
+  },
+  "capabilities": {
+    "tools": [
+      {
+        "name": "view_profile",
+        "description": "Access professional profiles and contact information"
+      }
+    ]
+  },
+  "contact": {
+    "github": "https://github.com/rodrigopiccelli",
+    "linkedin": "https://linkedin.com/in/rodrigopiccelli",
+    "instagram": "https://www.instagram.com/rodrigopiccelli/"
+  }
+}

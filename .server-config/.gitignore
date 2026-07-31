@@ -1,0 +1,6 @@
+# Server configuration files
+# These should be deployed manually to /etc/nginx/sites-enabled/
+# NOT served from the web root
+
+*.pem
+*.key

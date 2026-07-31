@@ -1,0 +1,10 @@
+# Served content (updated manually on server)
+index.md
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

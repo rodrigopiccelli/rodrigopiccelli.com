@@ -1,0 +1,21 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://rodrigopiccelli.com/",
+      "links": [
+        {
+          "rel": "profile",
+          "href": "https://github.com/rodrigopiccelli",
+          "type": "text/html",
+          "title": "GitHub Profile"
+        },
+        {
+          "rel": "profile",
+          "href": "https://linkedin.com/in/rodrigopiccelli",
+          "type": "text/html",
+          "title": "LinkedIn Profile"
+        }
+      ]
+    }
+  ]
+}

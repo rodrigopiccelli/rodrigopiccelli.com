@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agentskills.io/schema/v0.2.0",
+  "version": "0.2.0",
+  "published_at": "2026-07-30T00:00:00Z",
+  "skills": [
+    {
+      "name": "profile-contact",
+      "type": "action",
+      "description": "View Rodrigo Piccelli's professional profile and contact information via GitHub, LinkedIn, and Instagram.",
+      "url": "https://rodrigopiccelli.com/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

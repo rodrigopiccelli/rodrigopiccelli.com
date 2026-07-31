@@ -1,0 +1,36 @@
+{
+  "issuer": "https://rodrigopiccelli.com",
+  "authorization_endpoint": "https://rodrigopiccelli.com/oauth/authorize",
+  "token_endpoint": "https://rodrigopiccelli.com/oauth/token",
+  "jwks_uri": "https://rodrigopiccelli.com/.well-known/jwks.json",
+  "grant_types_supported": ["authorization_code", "client_credentials", "refresh_token"],
+  "response_types_supported": ["code"],
+  "token_endpoint_auth_methods_supported": ["client_secret_basic", "private_key_jwt"],
+  "scopes_supported": ["profile:read"],
+  "agent_auth": {
+    "skill": "https://rodrigopiccelli.com/auth.md",
+    "register_uri": "https://rodrigopiccelli.com/agent/register",
+    "claim_uri": "https://rodrigopiccelli.com/agent/claim",
+    "revocation_uri": "https://rodrigopiccelli.com/agent/revoke",
+    "identity_types_supported": ["identity_assertion", "anonymous"],
+    "supported_identity_types": ["email", "domain"],
+    "credential_types_supported": ["client_secret_basic", "private_key_jwt"],
+    "supported_credential_types": ["client_secret_basic", "private_key_jwt"],
+    "identity_assertion": {
+      "assertion_types_supported": [
+        "urn:ietf:params:oauth:token-type:id-jag",
+        "verified_email"
+      ],
+      "credential_types_supported": ["client_secret_basic", "private_key_jwt"]
+    },
+    "anonymous": {
+      "credential_types_supported": ["client_secret_basic", "private_key_jwt"],
+      "claim_uri": "https://rodrigopiccelli.com/agent/claim"
+    },
+    "claims_endpoint": "https://rodrigopiccelli.com/agent/claims",
+    "revocation_endpoint": "https://rodrigopiccelli.com/agent/revoke",
+    "events_supported": [
+      "https://schemas.workos.com/events/agent/auth/identity/assertion/revoked"
+    ]
+  }
+}

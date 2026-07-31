@@ -1,0 +1,10 @@
+{
+  "resource_identifier": "https://rodrigopiccelli.com",
+  "authorization_servers": [
+    "https://github.com/login/oauth",
+    "https://www.linkedin.com/oauth"
+  ],
+  "scopes_supported": [
+    "profile:read"
+  ]
+}
